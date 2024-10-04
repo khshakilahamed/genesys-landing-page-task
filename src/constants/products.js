@@ -37,6 +37,48 @@ export const bannerProducts = [
         previousPrice: 34.95,
         currentPrice: 34.95,
     },
+    {
+        id: 5,
+        image: bannerImage3,
+        title: "Army Green Active Short Sleeve",
+        previousPrice: 34.95,
+        currentPrice: 34.95,
+    },
+    {
+        id: 6,
+        image: bannerImage1,
+        title: "Army Green Active Short Sleeve",
+        previousPrice: 34.95,
+        currentPrice: 34.95,
+    },
+    {
+        id: 7,
+        image: bannerImage2,
+        title: "Army Green Active Short Sleeve",
+        previousPrice: 34.95,
+        currentPrice: 34.95,
+    },
+    {
+        id: 8,
+        image: bannerImage3,
+        title: "Army Green Active Short Sleeve",
+        previousPrice: 34.95,
+        currentPrice: 34.95,
+    },
+    {
+        id: 9,
+        image: bannerImage4,
+        title: "Army Green Active Short Sleeve",
+        previousPrice: 34.95,
+        currentPrice: 34.95,
+    },
+    {
+        id: 10,
+        image: bannerImage3,
+        title: "Army Green Active Short Sleeve",
+        previousPrice: 34.95,
+        currentPrice: 34.95,
+    },
 ];
 
 export const products = [

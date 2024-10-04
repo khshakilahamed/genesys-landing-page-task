@@ -12,7 +12,7 @@ const Footer = () => {
       <Container>
         <BrandLogo isFooter={true} />
         <hr />
-        <div className="py-10 grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 sm:gap-14 md:gap-20 lg:gap-24 font-inter">
+        <div className="py-10 grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-10 sm:gap-14 md:gap-20 lg:gap-6 xl:gap-24">
           {/* Subscribe Section */}
           <div className="sm:col-span-3 md:col-span-2">
             <FooterSubscribe />

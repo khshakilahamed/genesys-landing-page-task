@@ -13,8 +13,10 @@ function App() {
 
   return (
     <>
-      <Header openModal={openModal} />
-      <Banner />
+      <div className="bg-red-3">
+        <Header openModal={openModal} />
+        <Banner />
+      </div>
       <Products />
       <BookSection />
       <Mission />

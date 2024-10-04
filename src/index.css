@@ -4,17 +4,23 @@
 
 @font-face {
   font-family: "act_of_rejection";
-  src: url("/assets/Font/act_of_rejection/Act_Of_Rejection.ttf");
+  src: url("/src/assets/Font/act_of_rejection/Act_Of_Rejection.ttf");
 }
 
 @font-face {
   font-family: "inter";
-  src: url("/assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf");
+  src: url("/src/assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf");
 }
 
 @font-face {
   font-family: "montserrat";
-  src: url("/assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf");
+  src: url("/src/assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@layer base {
+  html {
+    font-family: "inter", system-ui, sans-serif;
+  }
 }
 
 .custom-stroke {
