@@ -11,7 +11,7 @@ const Banner = () => {
         </h2>
         <div className="absolute top-[90px] xs:top-[100px] sm:top-[120px] md:top-[150px] lg:top-[180px] 2xl:top-[200px] 3xl:top-[230px] pl-12">
         {/* <div className="absolute top-[230px] flex items-center pl-12"> */}
-          <Marquee className="flex items-center" pauseOnHover>
+          <Marquee className="flex items-center" pauseOnHover loop={1000}>
             {bannerProducts?.map((item) => (
               <div key={item.id} className="w-[250px] sm:w-[300px] md:w-[350px] xl:w-[397px] mx-3 xl:mx-0">
                 <Card item={item} />
