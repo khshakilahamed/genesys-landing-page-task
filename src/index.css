@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "act_of_rejection";
+  src: url("/assets/Font/act_of_rejection/Act_Of_Rejection.ttf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("/assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+.custom-stroke {
+  -webkit-text-stroke: 1px black;
+}

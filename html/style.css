@@ -1,0 +1,302 @@
+/* start import fonts */
+@font-face {
+      font-family: act_of_rejection;
+      src: url(/assets/Font/act_of_rejection/Act_Of_Rejection.ttf);
+}
+
+@font-face {
+      font-family: inter;
+      src: url(/assets/Font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+      font-family: montserrat;
+      src: url(/assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+/* end import fonts */
+
+/* --------------------------------
+            Utils Start
+ ----------------------------------*/
+
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.section-container {
+      max-width: 1618px;
+      margin: 0 auto;
+}
+
+.container-padding {
+      padding: 100px 0;
+}
+
+/* --------------------------------
+            Utils End
+ ----------------------------------*/
+
+/* --------------------------------
+            Header Start
+ ----------------------------------*/
+/* Navbar */
+header {
+      /* height: 100vh; */
+      background-color: #EA2127;
+      color: #FFFFFF;
+}
+
+.navbar {
+      max-width: 1800px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 10px;
+}
+
+.navbar div {
+      display: flex;
+      align-items: center;
+}
+
+.navbar .logo {
+      width: 115px;
+      height: 115px;
+}
+
+.navbar div h1 {
+      font-family: montserrat;
+      font-size: 112px;
+      letter-spacing: 12px;
+      text-transform: uppercase;
+}
+
+/* banner */
+.banner {
+      min-height: 70vh;
+}
+
+.banner>div {
+      /* margin-left: 100px; */
+      position: relative;
+}
+
+.banner-title {
+      margin-top: 150px;
+      font-family: act_of_rejection;
+      font-size: 140px;
+      color: #FFFFFF66;
+      text-transform: uppercase;
+}
+
+.banner-card-container {
+      /* padding-left: 10px; */
+      position: absolute;
+      top: 100px;
+}
+
+.banner-card-container>div {
+      display: flex;
+      gap: 20px;
+      padding-left: 50px;
+      top: 100px;
+      overflow-x: hidden !important;
+      max-width: 100%;
+}
+
+.banner-card {
+      width: 397px;
+      height: 468px;
+}
+
+.banner-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+}
+
+.product-title {
+      font-size: 16px;
+      padding-top: 10px;
+}
+
+.price {
+      display: flex;
+      gap: 20px;
+      padding-top: 10px;
+      font-size: 20px;
+}
+
+.prev-price {
+      text-decoration: line-through;
+}
+
+
+/* --------------------------------
+            Header End
+ ----------------------------------*/
+
+
+/* --------------------------------
+            Products Start 
+ ----------------------------------*/
+
+.products-section-title {
+      font-family: montserrat;
+      font-size: 45px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+}
+
+.transparent-text {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 1px black;
+      -webkit-background-clip: text;
+}
+
+.products {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 5px;
+      padding-top: 60px;
+}
+
+.products-card {
+      max-width: 387px;
+      background-color: white;
+      padding: 18px;
+      border-radius: 12px;
+      overflow: hidden;
+}
+
+.products-card {
+      width: 100%;
+      overflow: hidden !important;
+}
+
+.product-card-img {
+      width: 100%;
+      border-radius: 12px;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+      transition-property: transform;
+      overflow: hidden !important;
+}
+
+.product-card-img:hover {
+      transform: scale(1.1);
+
+}
+
+.price .current-price {
+      font-weight: 600;
+}
+
+/* --------------------------------
+            Products End 
+ ----------------------------------*/
+
+
+/* --------------------------------
+            Book Start 
+ ----------------------------------*/
+.book-container {
+      padding: 130px 0;
+      display: flex;
+      gap: 20px;
+}
+
+.book-section-left {
+      width: 50%;
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+}
+
+.book-section-right {
+      width: 50%;
+}
+
+.author {
+      font-size: 49px;
+      color: #F6F5F5;
+      text-transform: uppercase;
+}
+
+.signed-title {
+      font-size: 75px;
+      text-transform: uppercase;
+      background: linear-gradient(180deg, #DE2A2F 0%, #EF5256 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+}
+
+.btn-shop-now {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 18px 40px;
+      /* width: 186px;
+      height: 52px; */
+      font-weight: 600;
+      border-radius: 12px;
+      text-transform: uppercase;
+      background: #FFFFFF;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.2s ease-in-out;
+}
+
+.btn-shop-now:hover {
+      background-color: #DE2A2F;
+}
+
+.author-signature {
+      width: 100%;
+}
+
+/* --------------------------------
+            Book End 
+ ----------------------------------*/
+
+
+/* --------------------------------
+            Mission Start 
+ ----------------------------------*/
+.mission-wrapper {
+      background: linear-gradient(90deg, #EC3339 0%, #BB1117 100%);
+}
+
+.mission-container {
+      display: flex;
+      position: relative;
+
+}
+
+.mission-section-left{
+      width: 70%;
+}
+
+.mission-title{
+      font-size: 48px;
+      text-transform: uppercase;
+      
+}
+
+.mission-section-right {
+      width: 30%;
+}
+.hero {
+      position: absolute;
+      top: -160px;
+      right: 0;
+}
+
+/* --------------------------------
+            Mission End 
+ ----------------------------------*/
